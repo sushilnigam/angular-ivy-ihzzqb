@@ -1,0 +1,10 @@
+<p>
+child works!
+</p>
+<div class="messagelist" *ngFor="let m of messagelist ">  
+   {{ m.msg }}  
+</div>  
+<div>  
+   <input [(ngModel)]="name"type="text"/>  
+   <button (click)="PostData()"> Pass Data </button>  
+</div>
